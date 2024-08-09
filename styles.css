@@ -1,0 +1,440 @@
+body{
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .navbar-light{
+  overflow: hidden;
+  padding: ;
+  background-color: black;
+}
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  background-color: ;
+}
+
+.navbar-light button.navbar-toggler {
+  border-color: #658864;
+  box-shadow: 3px solid #658864;
+}
+
+.navbar a.navbar-brand:hover {
+  color: green;
+}
+
+.navbar-scrolled{
+  background-color: #373A40;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.navbar{
+  transition: all 0.8s;
+}
+
+
+h1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #658864;
+  font-size: 3rem;
+}
+
+h2{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #373A40;
+  font-size: 2rem
+}
+
+p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color: #373A40;
+  line-height: 2;
+}
+
+/* jasvasript scroll animations */
+
+/* .hidden{
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+} */
+
+/* container-fluid1 */
+
+.container-fluid1{
+  padding: 5% 8.5%;
+  overflow: hidden;
+  background: url();
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fastest{
+  padding-top: 4%;
+}
+
+.img-fluid{
+  width: ;
+  height: ;
+}
+
+.button1{
+  padding: 0 0 6% 0;
+}
+
+.btn-secondary2{
+  background-color: #373A40;
+  border: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.5% 4%;
+  color: #F5F7F8;
+}
+.take2:hover{
+  color: #FEFDED;
+  border: none;
+}
+.btn-secondary2 a{
+  text-decoration: none;
+  color: #F5F7F8;
+}
+
+.btn-secondary1{
+  background-color: #fff;
+  border: 1px solid #373A40;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.5% 4%;
+  color: #F5F7F8;
+  margin-left: 15px;
+}
+
+.btn-secondary1 a{
+  text-decoration: none;
+  color: #373A40;
+}
+.btn-secondary1:hover{
+    background-color: #76885B;
+}
+.take1:hover{
+  color: #fff;
+  border: none;
+}
+
+/* .header-h3 h3{
+  font-family: "Ubuntu" sans-serif;
+  font-weight: bold;
+  font-size: 10rem
+  color: #373A40;
+} */
+
+
+/* feauture */
+.container-fluid01{
+  background-color: #EEEEEE;
+  padding: 3% 5%;
+}
+
+.head{
+  padding: 3%;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.card{
+  margin-bottom: 6%;
+  /* overflow: hidden;
+  -webkit-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+  -moz-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+  box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body{
+  margin: 3.5%;
+}
+
+.btn-primary1{
+  background-color: #373A40;
+  border: none;
+  padding: 1.5% 5%;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-primary1 a{
+  color: #373A40;
+}
+.btn-primary1:hover{
+  color: #F5EFE6;
+}
+
+.we{
+  font-family: "Ubuntu" sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* color: #65B741; */
+  color: #658864;
+}
+.span1{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #373A40;
+}
+
+/* portfolios */
+
+.Testimonial{
+  padding: 5% 8% 10%;
+  text-align: center;
+}
+
+.Porfolios{
+  font-family: "Ubuntu" sans-serif;
+  font-size: 3rem;
+  padding: 0 5%
+}
+
+.carousel-item{
+  width: ;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.carousel-inner{
+  border-radius: 50px;
+  background:;
+}
+
+/* <!-- lests increase your sales --> */
+
+.lets-increase{
+  padding: 5% 8% 6%;
+  background: url();
+  background-attachment: fixed;
+  background-size: cover;
+  height: 230px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+span2{
+  font-size: 3rem;
+  color: #FFBF00;
+}
+
+/* ours sales academy */
+.img{
+  width: ;
+}
+.container-fluid02{
+  padding: 0% 0% 5%;
+  text-align: center;
+}
+
+.our-sales{
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+  color: white;
+}
+.we-have{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding-bottom: 2%;
+  color: white;
+  line-height: 2rem;
+}
+
+.container4{
+  padding: 8% 5%;
+  background-image: url(images/500.png);
+  background-position: center;
+  width: 100%;
+  height: 330px;
+}
+
+.container5{
+  padding: 2% 10% 10%;
+  text-align: center;
+}
+
+.btn-secondary3{
+  background-color: #373A40;
+  border: none;
+  padding: 0 0% 0;
+  text-decoration: none;
+  color: #fff;
+  width: 14rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.see{
+  background-color: #373A40;
+  border: none;
+  text-decoration: none;
+  padding: 1.5% 4%;
+  color: #F5F7F8;
+}
+.see:hover{
+  text-decoration: none;
+  color: #DDDDDD;
+}
+
+/* brands mission */
+
+.container-fluid2{
+  padding: 6% 8% 5%;
+  background: #EEEEEE;
+}
+
+.brands-h1{
+  font-family: "Ubuntu" sans-serif;
+  color: #373A40;
+  font-weight: bold;
+}
+
+/* founder special note */
+.container6{
+  padding: 10% 6% 10%;
+  align-items: center;
+}
+
+.spec-note-h6{
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: #658864;
+}
+
+.rounded{
+  /* -webkit-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+  -moz-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+  box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36); */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+ span1{
+  font-weight: bold;
+}
+span3{
+  font-weight: lighter;
+}
+
+
+
+/* footer */
+#footer{
+  background-color: #EEEEEE;
+}
+.container{
+  padding: 8% 5% 5%;
+  border-bottom: 0.5px solid black;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.col-lg-4{
+  text-align: center;
+  margin: 3.5% 0;
+}
+
+
+.col-lg-4 h5{
+  font-size: 1.2rem;
+  color: #7F9F80;
+}
+
+.col-lg-4 a{
+  text-decoration: none;
+  margin-left: 3%;
+  color: #686D76;
+  transition: 0.2s;
+}
+
+.col-lg-4 a:hover{
+  color: #7F9F80;
+}
+
+.botom{
+  text-align: center;
+  padding-bottom: 4%;
+}
+.botom h5{
+  font-size: 1rem;
+  color: #686D76;
+  font-weight: lighter;
+}
+
+.yhaw{
+  font-size: 1rem;
+  color: #686D76;
+  font-weight: lighter;
+}
+
+.fa-brands{
+  font-size: 1.2rem;
+  margin-left: 2px;
+  color: #686D76;
+}
+
+
+@media (max-width: 900px) {
+  .brands-m{
+    text-align: center;
+  }
+  .we{
+    text-align: center;
+  }
+  .row{
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .container4{
+    background-position: center;
+    background-attachment: scroll;
+  }
+  }
+
+  @media (max-width: 720px){
+    .our-sales{
+      font-size: 2.3rem;
+    }
+
+    .container-fluid02{
+      padding-top: 5%;
+    }
+    .container4{
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 2048px){
+    .spec-note-p{
+      padding: 5% 3% 0;
+      text-align: left;
+    }
+    .container6{
+      text-align: center;
+      align-items: center;
+    }
+    .special-note1{
+      text-align: center;
+      align-items: center;
+      padding: 3% 5% 0;
+    }
+  }
+  /* @media (min-width: 900px){
+    .spec-note-p{
+      padding: 5% 3% 0;
+    }
+  } */
