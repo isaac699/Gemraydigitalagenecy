@@ -217,11 +217,11 @@ p{
 /* <!-- lests increase your sales --> */
 
 .lets-increase{
-  padding: 5% 8% 6%;
+  padding: 8% 8% 8%;
   background: url();
   background-attachment: fixed;
   background-size: cover;
-  height: 230px;
+  height: 300px;
   text-align: center;
   background-color: #EEEEEE;
 }
@@ -234,6 +234,9 @@ span2{
 /* ours sales academy */
 .img{
   width: ;
+}
+.paddingtop{
+  padding-top: 0%;
 }
 .container-fluid02{
   padding: 0% 0% 5%;
@@ -255,7 +258,7 @@ span2{
 }
 
 .container4{
-  padding: 8% 5%;
+  padding: 6% 5% 5%;
   background-image: url(images/500.png);
   background-position: center;
   width: 100%;
@@ -265,6 +268,9 @@ span2{
 .container5{
   padding: 2% 10% 10%;
   text-align: center;
+}
+.sales-p{
+  padding: 5% 0 3%;
 }
 
 .btn-secondary3{
@@ -403,6 +409,7 @@ span3{
     background-position: center;
     background-attachment: scroll;
   }
+
   }
 
   @media (max-width: 720px){
