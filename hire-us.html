@@ -8,24 +8,60 @@
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-    <style media="screen">
+    <!-- our project just needs Font Awesome Solid + Brands -->
+     <link href="css/fontawesome.css" rel="stylesheet" />
+     <link href="css/brands.css" rel="stylesheet" />
+     <link href="css/solid.css" rel="stylesheet" />
+     <link rel="stylesheet" href="all.css">
 
+
+    <style>
       body{
         margin: 0;
         font-family: "Ubuntu", sans-serif;
       }
 
-      .navbar{
-        overflow: hidden;
-        padding: 1% 8%;
-        font-family: "Ubuntu", sans-serif;
+      .navbar-light{
+        background-color: white;
       }
+
+      /* navbar backgrou */
+      .navbar-custom{
+        background-color: #729762;
+      }
+      /* navbar backgrou */
+
       .navbar ul.navbar-nav li.nav-item a.nav-link {
         background-color: ;
+        color: white;
+        transition: 0.5s;
+        font-weight: bold;
+      }
+
+      .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+        color: #445069;
+      }
+
+      .nav-link.active {
+        color: #373A40!important;
+       }
+
+      .navbar-light span.fafa {
+        color: #729762;
+        font-size: 3rem;
+        transition: 0.5s;
+      }
+      .navbar-light span.fafa:hover{
+
       }
 
       .navbar-light button.navbar-toggler {
-        border-color: ;
+        color: #EEEEEE;
+        background-color: #;
+        box-shadow: ;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        outline: none;
       }
 
       .navbar a.navbar-brand:hover {
@@ -33,7 +69,7 @@
       }
 
       .navbar-scrolled{
-        background-color: #373A40;
+        background-color: green;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
       }
 
@@ -45,7 +81,7 @@
 
       .container1{
         padding: 8% 5%;
-        background-color: #ebf1f1;
+        background-color: #F5F7F8;
       }
 
       .hire-h1{
@@ -172,9 +208,71 @@
     .form input[type="text"] {
     }
 
-    hr{
-      width: 80%;
+
+    #footer{
+      background-color: #2F3645;
     }
+    .container{
+      padding: 3% 5% 0;
+      text-align: center;
+    }
+
+    .col-lg-4{
+      text-align: center;
+      margin: 3.5% 0;
+    }
+
+
+    .col-lg-4 h5{
+      font-size: 1.2rem;
+      color: #EEEDEB;
+    }
+
+    .col-lg-4 a{
+      text-decoration: none;
+      margin-left: 3%;
+      color: #EEEDEB;
+      font-weight: lighter;
+      transition: 0.2s;
+    }
+
+    .col-lg-4 a:hover{
+      color: #7F9F80;
+    }
+
+    .botom{
+      text-align: center;
+      padding-bottom: 4%;
+    }
+    .botom h5{
+      font-size: 1rem;
+      color: #EEEDEB;
+      font-weight: lighter;
+    }
+
+    .yhaw{
+      font-size: 1rem;
+      color: #EEEDEB;
+      font-weight: lighter;
+    }
+
+    .fa-brands{
+      font-size: 1.2rem;
+      margin-left: 2px;
+      padding-right: 10px;
+      color: #fff;
+    }
+
+
+    /* navbar-collapse */
+    @media only screen and (max-width : 900px) {
+        .navbar-collapse {
+        background: #A1C398;
+        padding: 0 15px;
+      }
+    }
+    /* navbar-collapse */
+
 
       @media(max-width: 900px) {
         #hire-p{
@@ -205,23 +303,25 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top navbar-light" >
       <div class="container-fluid">
 
             <a class="navbar-brand smooth-scroll" href="#">
-              <img src="images/logo.jpg" alt="gemray" width="80" height="80">
+              <img src="images/logowhite.png" alt="gemray" width="80" height="80">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=""><i class="fa-sharp fa-solid fa-bars"></i></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+              <li class="nav-item ">
+                <a class="nav-link " href="index.html">Home</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="hire-us.html">Hire Us</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="hire-us.html">Hire Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about-us.html">About Us</a>
@@ -231,7 +331,9 @@
               </li>
             </ul>
           </div>
+
       </div>
+
     </nav>
 
 
@@ -257,6 +359,7 @@
 
                  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
                  <div class="elfsight-app-12250bb5-991a-4f36-815a-937a5e30c012" data-elfsight-app-lazy></div>
+
                 <!-- <input type="text" name="fName"  class="form-control" placeholder="Your name" required autofocus>
 
                 <input type="text" name="email" class="form-control middle" placeholder="Email" required>
@@ -314,19 +417,52 @@
             </div>
           </form>
         </div>
-        <hr>
+      </div>
+
+
+        <!-- footer -->
+      <section>
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+              <hr>
+              <div class="col-lg-4 col-md-6">
+                <h5 class="footer-h6">We are here to help you reach your goals</h5>
+              </div>
+            <div class="col-lg-4 col-md-6">
+              <h5 class="useful">Useful Links</h5>
+              <a href="index.html">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="refreshment.html">Refreshing approach to Digital Marking</a>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <h5>Contact Us</h5>
+              <h6 class="yhaw">Gemraydigitalagency@gmail.com</h6>
+              <h6 class="yhaw ">+233 535 817 118 </h6>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="botom">
+            <h5>Copyright © 2024. | Gemray Digital Agency</h5>
+            <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-7232e952-7fa7-4dfb-8c9e-ac2bd5f9a54f" data-elfsight-app-lazy></div>
+       -->
+          </div>
+        </div>
+
+      </section>
+
 
         <!-- jquery  -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
         <!-- jquery uncompressed -->
         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-        <!-- bootstrap script -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
         <!-- Navbar Scroll -->
         <script>
@@ -341,11 +477,28 @@
         </script>
 
       <script>
+
+      window.sr = ScrollReveal();
+        sr.reveal('.hire-h1', {
+          duration: 3000,
+          origin: 'top',
+          distance: '300px',
+          reset: true
+        });
+
+        window.sr = ScrollReveal();
+          sr.reveal('#hire-p', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '200px',
+            reset: true
+          });
+
       window.sr = ScrollReveal();
         sr.reveal('.form-img-animat', {
           duration: 3000,
-          origin: 'bottom',
-          distance: '200px',
+          origin: 'top',
+          distance: '100px',
           reset: true
         });
 

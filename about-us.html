@@ -16,17 +16,48 @@
       font-family: "Ubuntu", sans-serif;
     }
 
-    .navbar{
-      overflow: hidden;
-      padding: 1% 8%;
-      font-family: "Ubuntu", sans-serif;
+    .navbar-light{
+      background-color: white;
     }
+
+    /* navbar backgrou */
+    .navbar-custom{
+      background-color: #729762;
+    }
+    /* navbar backgrou */
+
     .navbar ul.navbar-nav li.nav-item a.nav-link {
       background-color: ;
+      color: white;
+      transition: 0.5s;
+      font-weight: bold;
+    }
+
+    .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+      color: #445069;
+    }
+
+    .nav-link.active {
+      color: #373A40!important;
+     }
+
+    .navbar-light span.fafa {
+      color: #729762;
+      font-size: 3rem;
+      transition: 0.5s;
+    }
+    .navbar-light span.fafa:hover{
+
     }
 
     .navbar-light button.navbar-toggler {
-      border-color: ;
+      color: #EEEEEE;
+      background-color: #;
+      box-shadow: ;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      outline: none;
+      margin: none;
     }
 
     .navbar a.navbar-brand:hover {
@@ -34,14 +65,13 @@
     }
 
     .navbar-scrolled{
-      background-color: #373A40;
+      background-color: green;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     }
 
     .navbar{
       transition: all 0.8s;
     }
-
     /* about */
     .container-fluid1{
       padding: 8% 8.5% 7%;
@@ -130,32 +160,32 @@
     }
 
     /* footer */
+    #footer{
 
+      background-color: #2F3645;
+    }
     .container{
-      padding: 8% 5% 5%;
-      border-bottom: 2px solid #EEEEEE;
-      margin-bottom: 5%;
+      padding: 3% 5% 0;
       text-align: center;
-      background-color: #fff;
     }
 
     .col-lg-4{
-      font-family: "Ubuntu", san-serif;
       text-align: center;
       margin: 3.5% 0;
     }
 
+
     .col-lg-4 h5{
       font-size: 1.2rem;
-      color: #7F9F80;
+      color: #EEEDEB;
     }
 
     .col-lg-4 a{
-      font-family: "Ubuntu", san-serif;
       text-decoration: none;
       margin-left: 3%;
-      color: #686D76;
-      transition: 0.5s;
+      color: #EEEDEB;
+      font-weight: lighter;
+      transition: 0.2s;
     }
 
     .col-lg-4 a:hover{
@@ -167,50 +197,52 @@
       padding-bottom: 4%;
     }
     .botom h5{
-      font-family: "Ubuntu", san-serif;
       font-size: 1rem;
-      color: #686D76;
+      color: #EEEDEB;
       font-weight: lighter;
     }
 
     .yhaw{
-      font-family: "Ubuntu", san-serif;
       font-size: 1rem;
-      color: #686D76;
+      color: #EEEDEB;
       font-weight: lighter;
     }
 
-
-    .footer-li{
-      font-family: "Ubuntu", san-serif;
-      font-size: 1.5rem;
-      color: #7F9F80;
-    }
-    .footer-a{
-      font-family: "Ubuntu", san-serif;
-      font-size: 1rem;
-      color: #686D76;
-      font-weight: lighter;
-    }
-    .footer-h6{
-      font-family: "Ubuntu", san-serif;
-      font-size: 1.5rem;
-      color: #658864;
-    }
     .fa-brands{
       font-size: 1.2rem;
       margin-left: 2px;
-      color: #686D76;
+      padding-right: 10px;
+      color: #fff;
     }
+
+
+    /* navbar-collapse */
+    @media only screen and (max-width : 900px) {
+        .navbar-collapse {
+        background: #A1C398;
+        padding: 0 15px;
+      }
+    }
+    /* navbar-collapse */
 
     @media (max-width: 900px){
       .footer-h6{
         padding: 0 8%;
       }
+      .fa-brands{
+        margin-right: 5px;
+        padding-right: 5px;
+      }
       #container{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+      }
+    }
+
+    @media (max-width: 487px) {
+      .gemray{
+        padding-top: 30px;
       }
     }
     </style>
@@ -237,26 +269,28 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top navbar-light" >
       <div class="container-fluid">
 
             <a class="navbar-brand smooth-scroll" href="#">
-              <img src="images/logo.jpg" alt="gemray" width="80" height="80">
+              <img src="images/logowhite.png" alt="gemray" width="80" height="80">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=""><i class="fas fa-bars"></i></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="hire-us.html">Hire Us</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about-us.html">About Us</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="about-us.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -317,34 +351,42 @@
   </div>
 
   <!-- footer -->
-
-  <div class="container">
-    <div class="row">
-      <hr>
+<section>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <hr>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-h6">We are here to help you reach your goals</h5>
+        </div>
       <div class="col-lg-4 col-md-6">
-        <h5 class="footer-h6">We are here to help you reach your goals</h5>
+        <h5 class="useful">Useful Links</h5>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="refreshment.html">Refreshing approach to Digital Marking</a>
       </div>
-    <div class="col-lg-4 col-md-6">
-      <h5 class="footer-li">Useful Links</h5>
-      <a class="footer-a" href="index.html">Home</a>
-      <a class="footer-a" href="about-us.html">About Us</a>
-      <a class="footer-a" href="refreshment.html">Refreshing approach to Digital Marking</a>
-    </div>
-    <div class="col-lg-4 col-md-12">
-      <h5 class="footer-li">Contact Us</h5>
-      <h6 class="yhaw">yaw1998@gmail.com</h6>
-      <h6 class="yhaw">+233 559 984 234</h6>
-      <div class="social-icons">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#">  <i class="fa-brands fa-tiktok"></i></a>
+      <div class="col-lg-4 col-md-12">
+        <h5>Contact Us</h5>
+        <h6 class="yhaw">Gemraydigitalagency@gmail.com</h6>
+        <h6 class="yhaw ">+233 535 817 118 </h6>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
       </div>
     </div>
+    <div class="botom">
+      <h5>Copyright © 2024. | Gemray Digital Agency</h5>
+      <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-7232e952-7fa7-4dfb-8c9e-ac2bd5f9a54f" data-elfsight-app-lazy></div>
+ -->
     </div>
   </div>
-  <div class="botom">
-    <h5 >Copyright © 2024. | Gemray Digital Agency</h5>
-  </div>
+
+</section>
+
 
   <!-- jquery uncompressed -->
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

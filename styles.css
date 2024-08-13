@@ -5,18 +5,47 @@ body{
   justify-content: center;
 }
 
-.navbar .navbar-light{
-  overflow: hidden;
-  padding: ;
-  background-color: black;
+.navbar-light{
+  background-color: white;
 }
+
+/* navbar backgrou */
+.navbar-custom{
+  background-color: #729762;
+}
+/* navbar backgrou */
+
 .navbar ul.navbar-nav li.nav-item a.nav-link {
   background-color: ;
+  color: white;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #445069;
+}
+
+.nav-link.active {
+  color: #373A40!important;
+ }
+
+.navbar-light span.fafa {
+  color: #729762;
+  font-size: 3rem;
+  transition: 0.5s;
+}
+.navbar-light span.fafa:hover{
+
 }
 
 .navbar-light button.navbar-toggler {
-  border-color: #658864;
-  box-shadow: 3px solid #658864;
+  color: #EEEEEE;
+  background-color: #;
+  box-shadow: ;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
 }
 
 .navbar a.navbar-brand:hover {
@@ -24,7 +53,7 @@ body{
 }
 
 .navbar-scrolled{
-  background-color: #373A40;
+  background-color: green;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
@@ -71,7 +100,7 @@ p{
 /* container-fluid1 */
 
 .container-fluid1{
-  padding: 5% 8.5%;
+  padding: 5% 5%;
   overflow: hidden;
   background: url();
   background-size: cover;
@@ -140,12 +169,16 @@ p{
 /* feauture */
 .container-fluid01{
   background-color: #EEEEEE;
-  padding: 3% 5%;
+  padding: 3% 3%;
 }
 
 .head{
-  padding: 3%;
+  padding: 8% 3% 2%;
   overflow: hidden;
+  text-align: center;
+}
+
+.we-commit-p{
   text-align: center;
 }
 
@@ -161,6 +194,7 @@ p{
 }
 .card-body{
   margin: 3.5%;
+  text-align: left;
 }
 
 .btn-primary1{
@@ -200,7 +234,14 @@ p{
 .Porfolios{
   font-family: "Ubuntu" sans-serif;
   font-size: 3rem;
-  padding: 0 5%
+  padding: 5% 5%;
+}
+
+.course-p{
+  font-family: "Ubuntu" sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .carousel-item{
@@ -340,12 +381,11 @@ span3{
 
 /* footer */
 #footer{
-  background-color: #EEEEEE;
+    background-color: #2F3645;
 }
 .container{
   padding: 8% 5% 5%;
-  border-bottom: 0.5px solid black;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   text-align: center;
 }
 
@@ -356,15 +396,17 @@ span3{
 
 
 .col-lg-4 h5{
-  font-size: 1.2rem;
-  color: #7F9F80;
+  font-size: 1.1rem;
+  color: #EEEDEB;
 }
 
 .col-lg-4 a{
   text-decoration: none;
   margin-left: 3%;
-  color: #686D76;
+  color: #EEEDEB;
   transition: 0.2s;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .col-lg-4 a:hover{
@@ -382,8 +424,8 @@ span3{
 }
 
 .yhaw{
-  font-size: 1rem;
-  color: #686D76;
+  font-size: 14px;
+  color: #EEEDEB;
   font-weight: lighter;
 }
 
@@ -394,7 +436,29 @@ span3{
 }
 
 
+
+/* navbar-collapse */
+@media only screen and (max-width : 900px) {
+    .navbar-collapse {
+    background: #A1C398;
+    padding: 0 15px;
+  }
+}
+/* navbar-collapse */
+
+
+
 @media (max-width: 900px) {
+  .fastest{
+    text-align: left;
+  }
+  .button-animate1{
+    font-size: 1.2rem;
+  }
+  .button-animate2{
+    font-size: 1.2rem;
+  }
+
   .brands-m{
     text-align: center;
   }
@@ -412,7 +476,7 @@ span3{
 
   }
 
-  @media (max-width: 720px){
+  @media (max-width: 768px){
     .our-sales{
       font-size: 2.3rem;
     }
@@ -423,6 +487,26 @@ span3{
     .container4{
       height: 300px;
     }
+  }
+
+  /* phone breakpoint */
+  @media (max-width: 487px) {
+    .container5{
+      text-align: left;
+    }
+    .bttn{
+      font-size: 1rem;
+      width: 10rem;
+      height: 3rem;
+    }
+    .brands-h1{
+        text-align: left;
+    }
+    .brands-p{
+      text-align: left;
+      padding-bottom: 3%;
+    }
+
   }
 
   @media (max-width: 2048px){

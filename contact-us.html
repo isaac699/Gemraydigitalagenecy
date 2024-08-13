@@ -41,7 +41,11 @@
 
       .cont-main{
         background-color: #EEEEEE;
-        padding: 5% 5% 7%;
+        padding: 8% 5% 7%;
+      }
+
+      .card{
+        margin: 3%;
       }
 
       .contact{
@@ -56,7 +60,7 @@
         font-size: 1rem;
         color: #686D76;
         padding-bottom: 3%;
-        font-weight: light;
+        font-weight: lighter;
       }
 
       .fa-solid{
@@ -86,17 +90,20 @@
       }
 
       .email{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: normal;
         color: #76885B;
         font-weight: bold;
       }
       .gemray{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: lighter;
         color: #76885B;
       }
 
+      .fill{
+        padding-top: 5%;
+      }
       .fill-out-h1{
         font-size: 2.3rem;
         font-weight: bold;
@@ -115,15 +122,15 @@
         padding: 10px;
       }
 
-      .form input[type="text"]:focus {
+      /* .form input[type="text"]:focus {
         border-color: #658864;
         box-shadow: 1px solid #658864;
       }
 
-      .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #EEEEEE
-        opacity: 1; /* Firefox */
-      }
+      .form-control::placeholder {
+        color: #EEEEEE;
+        opacity: 1;
+      } */
 
       .btn-primary{
         background-color: #76885B;
@@ -134,6 +141,13 @@
       .btn-primary:hover{
         background-color: #B7B78A;
         color: #434242;
+      }
+
+      @media (max-width: 487px) {
+        .fill-out-h1{
+          font-size: 2.2rem;
+          margin-top: 20px;
+        }
       }
     </style>
 
@@ -147,7 +161,7 @@
 
 
        <div class="head row">
-         <div class="col-lg-6 col-md-6 card-main">
+         <div class="col-lg-6 ">
            <div class="card">
              <div class="card-body">
                <i class="fa-solid fa-envelope"></i>
@@ -157,15 +171,32 @@
            </div>
          </div>
 
-         <div class="col-lg-6 col-md-6">
+         <div class="col-lg-6 ">
            <div class="card">
              <div class="card-body">
                <i class="fa-solid fa-phone"></i>
                <h2 class="email">CALL US</h2>
                <h2 class="gemray">+233 535 817 118</h2>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-6 ">
+           <div class="card">
+             <div class="card-body">
                <i class="fa-brands fa-whatsapp fa-whats"></i>
                <h2 class="email">WHATSAPP</h2>
                <h2 class="gemray">+233 535 817 118</h2>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-lg-6 card-main">
+           <div class="card">
+             <div class="card-body">
+               <i class="fa-brands fa-facebook fa-whats"></i>
+               <h2 class="email">FACEBOOK</h2>
+               <h2 class="gemray">Gemray Digital Agency</h2>
              </div>
            </div>
          </div>
@@ -177,8 +208,12 @@
         <h1 class="fill-out-h1">Fill Out The <span class="fill-span">Form Below</span></h1>
       </div>
 
-      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-      <div class="elfsight-app-d0cf1a49-1289-4855-9dd7-cf4d4554ffac" data-elfsight-app-lazy></div>
+      <div class="container">
+        <div class="scrip">
+          <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+          <div class="elfsight-app-d0cf1a49-1289-4855-9dd7-cf4d4554ffac" data-elfsight-app-lazy></div>
+        </div>
+      </div>
 
       <!-- <form class="form" action="/" method="POST">
         <div class="row">
@@ -203,7 +238,7 @@
           <button type="submit" class="btn btn-primary mb-2 ml-3">Confirm</button>
         </div>
       </form> -->
-      </div>
+      <!-- </div> -->
 
       <!-- jquery  -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
