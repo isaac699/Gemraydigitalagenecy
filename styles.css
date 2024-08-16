@@ -44,7 +44,7 @@ body{
   background-color: #;
   box-shadow: ;
   border: 1px solid #ccc;
-  font-size: 1rem;
+  font-size: 1.3rem;
   outline: none;
 }
 
@@ -166,67 +166,10 @@ p{
 } */
 
 
-/* feauture */
-.container-fluid01{
-  background-color: #EEEEEE;
-  padding: 3% 3%;
-}
-
-.head{
-  padding: 8% 3% 2%;
-  overflow: hidden;
-  text-align: center;
-}
-
-.we-commit-p{
-  text-align: center;
-}
-
-
-.card{
-  margin-bottom: 6%;
-  /* overflow: hidden;
-  -webkit-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
-  -moz-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
-  box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.card-body{
-  margin: 3.5%;
-  text-align: left;
-}
-
-.btn-primary1{
-  background-color: #373A40;
-  border: none;
-  padding: 1.5% 5%;
-  text-decoration: none;
-  color: #fff;
-}
-.btn-primary1 a{
-  color: #373A40;
-}
-.btn-primary1:hover{
-  color: #F5EFE6;
-}
-
-.we{
-  font-family: "Ubuntu" sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  /* color: #65B741; */
-  color: #658864;
-}
-.span1{
-  font-size: 3rem;
-  font-weight: bolder;
-  color: #373A40;
-}
 
 /* portfolios */
 
-.Testimonial{
+/* .Testimonial{
   padding: 5% 8% 10%;
   text-align: center;
 }
@@ -252,11 +195,115 @@ p{
 
 .carousel-inner{
   border-radius: 50px;
-  background:;
+  background:; */
 }
 
-/* <!-- lests increase your sales --> */
 
+/* about */
+.container-fluid1{
+  padding: 8% 8.5% 7%;
+}
+
+.about-gemray{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #686D76;
+}
+
+.about-span{
+  color: #686D76;
+}
+
+#aboutgemray{
+  background-color: #EEEEEE;
+  padding: 3% 5% 3%;
+}
+
+.gemray{
+  font-family: "Ubuntu", san-serif;
+  font-size: 2rem;
+  color: #658864;
+  font-weight: bold;
+}
+
+.gemray-p{
+  font-weight: 400px;
+  line-height: 1.5rem;
+  color: #686D76;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+}
+
+.img{
+  padding-bottom: 8%;
+}
+
+
+/* why choose us */
+#container{
+  padding: 6% 8.5%;
+  background-color: #F5F7F8;
+  background-image: url(images/44.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.why{
+  font-family: "Ubuntu", san-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: white;
+  /* color: #686D76; */
+  text-align: center;
+  padding: 3% 0;
+}
+
+.Exp-span{
+  font-family: "Ubuntu", san-serif;
+  font-weight: 500;
+  /* color: #45474B; */
+  color: #EEEDEB;
+  font-size: 2rem;
+}
+
+.About-h1{
+  font-family: "Ubuntu", san-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: #FFBF00;
+}
+
+.digi-M{
+  font-family: "Ubuntu", san-serif;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  /* color: #45474B; */
+  color: #D0D4CA;
+}
+
+.Digi-P{
+  font-family: "Ubuntu", san-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #D0D4CA;
+}
+
+.fa-solid{
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+
+
+/* <!-- lests increase your sales --> */
 .lets-increase{
   padding: 8% 8% 8%;
   background: url();
@@ -337,11 +384,17 @@ span2{
   color: #DDDDDD;
 }
 
-/* brands mission */
 
+/* brands mission */
 .container-fluid2{
-  padding: 6% 8% 5%;
+  padding: 10% 8% 5%;
   background: #EEEEEE;
+}
+
+.img1{
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .brands-h1{
@@ -378,6 +431,58 @@ span3{
 }
 
 
+/* Testimonial session Happy Customers*/
+#testimony{
+  padding: 7% 13%;
+  text-align: center;
+  color: white;
+  background-color: #EEEEEE;
+}
+
+.happy-h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.testy-1{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+
+span4{
+  color: #658864;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.ceo{
+  color: black;
+}
+
+.carousel-item{
+  width: 100%;
+  background-position: center !Important;
+  background-size: cover !Important;
+}
+
+.testy-image{
+  width: 13%;
+  border-radius: 25%;
+  margin: 20px;
+}
+
+.fafa1{
+  color: black;
+  font-size: 1rem;
+}
+
+#carouselExampleIndicators ol.carousel-indicators li{
+  background-color: #686D76;
+}
+
+
 
 /* footer */
 #footer{
@@ -395,7 +500,7 @@ span3{
 }
 
 
-.col-lg-4 h5{
+.useful{
   font-size: 1.1rem;
   color: #EEEDEB;
 }
@@ -417,10 +522,19 @@ span3{
   text-align: center;
   padding-bottom: 4%;
 }
+
+.footer-h6{
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 20px;
+  color: #EEEEEE;
+}
+
 .botom h5{
   font-size: 1rem;
   color: #686D76;
   font-weight: lighter;
+
 }
 
 .yhaw{
@@ -529,3 +643,31 @@ span3{
       padding: 5% 3% 0;
     }
   } */
+
+
+  /* navbar-collapse */
+
+  @media (max-width: 900px){
+
+    .footer-h6{
+      padding: 0 8%;
+    }
+    .fa-brands{
+      margin-right: 5px;
+      padding-right: 5px;
+    }
+    .gemray-p{
+      text-align: left;
+    }
+    #container{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  @media (max-width: 487px) {
+    .gemray{
+      padding-top: 30px;
+    }
+  }

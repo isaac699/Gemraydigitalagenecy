@@ -60,8 +60,9 @@
         background-color: #;
         box-shadow: ;
         border: 1px solid #ccc;
-        font-size: 1rem;
+        font-size: 1.3rem;
         outline: none;
+        margin: none;
       }
 
       .navbar a.navbar-brand:hover {
@@ -208,8 +209,120 @@
     .form input[type="text"] {
     }
 
+    .contact-us{
+      text-align: center;
+      padding: 5% 4%;
+    }
 
+    .cont-main{
+      background-color: #EEEEEE;
+      padding: 8% 5% 7%;
+    }
+
+    .card{
+      margin: 3%;
+    }
+
+    .contact{
+      font-family: "Ubuntu", sans-serif;
+      font-size: 3rem;
+      color: #413F42;
+      font-weight: bold;
+    }
+
+    .cont-p{
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1rem;
+      color: #686D76;
+      padding-bottom: 3%;
+      font-weight: lighter;
+    }
+
+    .fa-solid{
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-bottom: 3%;
+      color: #76885B;
+    }
+    .fa-whats{
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-bottom: 3%;
+      color: #76885B;
+    }
+
+    .card-body{
+      margin: 5% 6%;
+
+    }
+    .card{
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      background-color:;
+      border: none;
+    }
+    .card-main{
+      padding-bottom: 5%;
+    }
+
+    .email{
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: #76885B;
+      font-weight: bold;
+    }
+    .gemray{
+      font-size: 1.2rem;
+      font-weight: lighter;
+      color: #76885B;
+    }
+
+    .fill{
+      padding-top: 5%;
+    }
+    .fill-out-h1{
+      font-size: 2.3rem;
+      font-weight: bold;
+      color: #76885B;
+      padding: 3% 0 3%;
+    }
+    .fill-span{
+      font-weight: lighter;
+      color: #76885B;
+      padding-bottom: 5%;
+      color: #76885B;
+      font-size: 2rem;
+    }
+
+    .form-control{
+      padding: 10px;
+    }
+
+    /* .form input[type="text"]:focus {
+      border-color: #658864;
+      box-shadow: 1px solid #658864;
+    }
+
+    .form-control::placeholder {
+      color: #EEEEEE;
+      opacity: 1;
+    } */
+
+    .btn-primary{
+      background-color: #76885B;
+      border: none;
+      width: 200px;
+      padding: 10px;
+    }
+    .btn-primary:hover{
+      background-color: #B7B78A;
+      color: #434242;
+    }
+
+
+
+    /* footer */
     #footer{
+
       background-color: #2F3645;
     }
     .container{
@@ -222,8 +335,14 @@
       margin: 3.5% 0;
     }
 
+    .footer-h6{
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 25px;
+      color: #EEEEEE;
+    }
 
-    .col-lg-4 h5{
+    .useful{
       font-size: 1.2rem;
       color: #EEEDEB;
     }
@@ -246,7 +365,7 @@
     }
     .botom h5{
       font-size: 1rem;
-      color: #EEEDEB;
+      color: #686D76;
       font-weight: lighter;
     }
 
@@ -263,6 +382,14 @@
       color: #fff;
     }
 
+
+
+    @media (max-width: 487px) {
+      .fill-out-h1{
+        font-size: 2.2rem;
+        margin-top: 20px;
+      }
+    }
 
     /* navbar-collapse */
     @media only screen and (max-width : 900px) {
@@ -291,8 +418,10 @@
     <!-- bootstrap stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/9aa0371bbe.js" crossorigin="anonymous"></script>
+
+
+    <!-- jquery uncompressed -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
     <!-- bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -304,7 +433,6 @@
   <body>
 
     <!-- navbar -->
-
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top navbar-light" >
       <div class="container-fluid">
 
@@ -313,28 +441,28 @@
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class=""><i class="fa-sharp fa-solid fa-bars"></i></span>
+                <span class=""><i class="fas fa-bars"></i></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item ">
-                <a class="nav-link " href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="our-portfolios.html">Our Porfolios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="our-services.html">Our Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="hire-us.html">Hire Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about-us.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact-us.html">Contact Us</a>
               </li>
             </ul>
           </div>
 
       </div>
-
     </nav>
+
 
 
       <div class="container1">
@@ -352,10 +480,6 @@
             <div class="row">
 
               <div class="col-lg-6">
-<!--
-                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                <div class="elfsight-app-d0cf1a49-1289-4855-9dd7-cf4d4554ffac" data-elfsight-app-lazy></div>
-                 -->
 
                  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
                  <div class="elfsight-app-12250bb5-991a-4f36-815a-937a5e30c012" data-elfsight-app-lazy></div>
@@ -419,6 +543,58 @@
         </div>
       </div>
 
+      <!-- contact-us -->
+      <div class="contact-us">
+      <div class="container-fluid">
+        <div class="cont-main">
+          <h1 class="contact">Contact Us</h1>
+          <p class="cont-p">If you have any queries, don't hesitate to get in touch with us. Our team would be delighted to assist you!</p>
+
+
+         <div class="head row">
+           <div class="col-lg-6 ">
+             <div class="card">
+               <div class="card-body">
+                 <i class="fa-solid fa-envelope"></i>
+                 <h2 class="email">EMAIL</h2>
+                 <h2 class="gemray">gemraydigitalagency@gmail.com</h2>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-lg-6 ">
+             <div class="card">
+               <div class="card-body">
+                 <i class="fa-solid fa-phone"></i>
+                 <h2 class="email">CALL US</h2>
+                 <h2 class="gemray">+233 535 817 118</h2>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-lg-6 ">
+             <div class="card">
+               <div class="card-body">
+                 <i class="fa-brands fa-whatsapp fa-whats"></i>
+                 <h2 class="email">WHATSAPP</h2>
+                 <h2 class="gemray">+233 535 817 118</h2>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-lg-6 card-main">
+             <div class="card">
+               <div class="card-body">
+                 <i class="fa-brands fa-facebook fa-whats"></i>
+                 <h2 class="email">FACEBOOK</h2>
+                 <h2 class="gemray">Gemray Digital Agency</h2>
+               </div>
+             </div>
+           </div>
+          </div>
+          </div>
+        </div>
+        </div>
 
         <!-- footer -->
       <section>
@@ -427,16 +603,16 @@
             <div class="row">
               <hr>
               <div class="col-lg-4 col-md-6">
-                <h5 class="footer-h6">We are here to help you reach your goals</h5>
+                <h5 class="footer-h6">We are here to help you increase your productivity and derive more sales into your business .Choose Us and you will Never regret.</h5>
               </div>
             <div class="col-lg-4 col-md-6">
               <h5 class="useful">Useful Links</h5>
               <a href="index.html">Home</a>
-              <a href="about-us.html">About Us</a>
+              <a href="hire-us.html">Hire us</a>
               <a href="refreshment.html">Refreshing approach to Digital Marking</a>
             </div>
             <div class="col-lg-4 col-md-12">
-              <h5>Contact Us</h5>
+              <h5 class="useful">Contact Us</h5>
               <h6 class="yhaw">Gemraydigitalagency@gmail.com</h6>
               <h6 class="yhaw ">+233 535 817 118 </h6>
               <div class="social-icons">

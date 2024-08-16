@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About Us</title>
+    <head>
+
+      <!-- scrollreveal -->
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <style>
+
+    body{
+      margin: 0;
+      font-family: "Ubuntu", sans-serif;
+    }
+
+    .navbar-light{
+      background-color: white;
+    }
+
+    /* navbar backgrou */
+    .navbar-custom{
+      background-color: #729762;
+    }
+    /* navbar backgrou */
+
+    .navbar ul.navbar-nav li.nav-item a.nav-link {
+      background-color: ;
+      color: white;
+      transition: 0.5s;
+      font-weight: bold;
+    }
+
+    .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+      color: #445069;
+    }
+
+    .nav-link.active {
+      color: #373A40!important;
+     }
+
+    .navbar-light span.fafa {
+      color: #729762;
+      font-size: 3rem;
+      transition: 0.5s;
+    }
+    .navbar-light span.fafa:hover{
+
+    }
+
+    .navbar-light button.navbar-toggler {
+      color: #EEEEEE;
+      background-color: #;
+      box-shadow: ;
+      border: 1px solid #ccc;
+      font-size: 1.3rem;
+      outline: none;
+      margin: none;
+    }
+
+    .navbar a.navbar-brand:hover {
+      color: green;
+    }
+
+    .navbar-scrolled{
+      background-color: green;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    }
+
+    .navbar{
+      transition: all 0.8s;
+    }
+
+
+    /* feauture */
+    .container-fluid01{
+      background-color: #EEEEEE;
+      padding: 3% 3%;
+    }
+
+    .head{
+      padding: 8% 3% 2%;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .we-commit-p{
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: lighter;
+    }
+
+
+    .card{
+      margin-bottom: 6%;
+      /* overflow: hidden;
+      -webkit-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+      -moz-box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+      box-shadow: -2px 0px 25px 4px rgba(0,0,0,0.36);
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .card-body{
+      margin: 3.5%;
+      text-align: left;
+
+    }
+
+    .card-title{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+    .card-text{
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: lighter;
+    }
+
+    .btn-primary1{
+      background-color: #373A40;
+      border: none;
+      padding: 1.5% 5%;
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    .btn-primary1 a{
+      color: #373A40;
+    }
+    .btn-primary1:hover{
+      color: #F5EFE6;
+    }
+
+    .we{
+      font-family: 'Ubuntu' sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+      /* color: #65B741; */
+      color: #658864;
+    }
+    .span1{
+      font-size: 3rem;
+      font-weight: bold;
+      color: #373A40;
+      font-family: 'Ubuntu' sans-serif;
+    }
+
+
+    /* about */
+    .container-fluid1{
+      padding: 8% 8.5% 7%;
+    }
+    .gemray{
+      font-family: "Ubuntu", san-serif;
+      font-size: 2rem;
+      color: #658864;
+      font-weight: bold;
+    }
+
+    .gemray-p{
+      font-weight: 400px;
+      line-height: 1.5rem;
+      color: #686D76;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: lighter;
+    }
+
+    .img{
+      padding-bottom: 8%;
+    }
+
+
+    /* footer */
+    #footer{
+        background-color: #2F3645;
+    }
+    .container{
+      padding: 8% 5% 5%;
+      margin-bottom: 3%;
+      text-align: center;
+    }
+
+    .col-lg-4{
+      text-align: center;
+      margin: 3.5% 0;
+    }
+
+
+    .useful{
+      font-size: 1.1rem;
+      color: #EEEDEB;
+    }
+
+    .col-lg-4 a{
+      text-decoration: none;
+      margin-left: 3%;
+      color: #EEEDEB;
+      transition: 0.2s;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+
+    .col-lg-4 a:hover{
+      color: #7F9F80;
+    }
+
+    .botom{
+      text-align: center;
+      padding-bottom: 4%;
+    }
+
+    .footer-h6{
+      font-size: 14px;
+      font-weight: lighter;
+      line-height: 20px;
+      color: #EEEEEE;
+    }
+
+    .botom h5{
+      font-size: 1rem;
+      color: #686D76;
+      font-weight: lighter;
+
+    }
+
+    .yhaw{
+      font-size: 14px;
+      color: #EEEDEB;
+      font-weight: lighter;
+    }
+
+    .fa-brands{
+      font-size: 1.2rem;
+      margin-left: 2px;
+      color: #686D76;
+    }
+
+
+
+
+
+    /* navbar-collapse */
+    @media only screen and (max-width : 900px) {
+        .navbar-collapse {
+        background: #A1C398;
+        padding: 0 15px;
+      }
+    }
+    /* navbar-collapse */
+
+    @media (max-width: 900px){
+      .footer-h6{
+        padding: 0 8%;
+      }
+
+      .fa-brands{
+        margin-right: 5px;
+        padding-right: 5px;
+      }
+      #container{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    @media (max-width: 487px) {
+      .gemray{
+        padding-top: 30px;
+      }
+    }
+    </style>
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- our project just needs Font Awesome Solid + Brands -->
+     <link href="css/fontawesome.css" rel="stylesheet" />
+     <link href="css/brands.css" rel="stylesheet" />
+     <link href="css/solid.css" rel="stylesheet" />
+     <link rel="stylesheet" href="all.css">
+
+    <!-- font awesome -->
+    <!-- <script src="https://kit.fontawesome.com/9aa0371bbe.js" crossorigin="anonymous"></script> -->
+
+
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top navbar-light" >
+      <div class="container-fluid">
+
+            <a class="navbar-brand smooth-scroll" href="#">
+              <img src="images/logowhite.png" alt="gemray" width="80" height="80">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="fas fa-bars"></i></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="our-portfolios.html">Our Porfolios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="our-services.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hire-us.html">Hire Us</a>
+              </li>
+            </ul>
+          </div>
+
+      </div>
+    </nav>
+
+
+    <!-- feauture -->
+    <div class="container-fluid01">
+      <div class="container-fluid">
+      <div class="head">
+        <div class="head-we">
+          <div class="wespan-animate">
+              <h1 class="we">Our <span class="span1">SERVICES</span></h1>
+          </div>
+          <p class="we-commit-p">Our ultimate goal is to provide your company or business with effective and
+            converting sales sequence, training and service with track records to guarentee effective result.</p>
+        </div>
+      </div>
+
+      <div class=" head row">
+        <div class="col-lg-6 col-md-6">
+          <div class="card-view">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sales Funnel Creation</h5>
+              <p class="card-text">We design winning & High converting Sales Strategies and funnels maps and develop it into and amazing Sales process and High converting Sales pages.</p>
+              <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="card-view1">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Organics & Inorganic Advertising</h5>
+                <p class="card-text">We develop Strategically, Winning Organic & Paid Digital advertisment (Facebook, Instagram, Google and  YouTube ) for your products and services.</p>
+                <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="card-view">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Copywriting & Content Creation</h5>
+                  <p class="card-text">We design and develop quality contents & sales copy for your business products and service that yeilds Sales. We also offer Social Media Management.</p>
+                  <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+              <div class="col-lg-6 col-md-6">
+              <div class="card-view1">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Web and Mobile Application</h5>
+                    <p class="card-text">We build, create and implement vitual designs and layouts, user-friendly, mobile app, Dynamic and responsive web for your digital products.</p>
+                    <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-lg-6 col-md-6">
+              <div class="card-view">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Branding and graphic Design</h5>
+                    <p class="card-text">We develop visual ideas base on client needs and target audience. We also produce designs for both
+                    print and digital media, such as flyers, Logos, Landing Page and social media content by establishing and maintaining a consistence brands
+                    identity through vitual elements.</p>
+                    <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="card-view1">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Database / AWS Administration</h5>
+                    <p class="card-text">Designing, deploying and managing applications and services on AWS, ensuring high availability and scalability.
+                    We also implement security best practices, and ensuring data protection and setting up backup solution and disaster recovery plans
+                    to protect your data</p>
+                    <a href="hire-us.html" class="btn btn-primary1">Hire Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+
+      <!-- footer -->
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <hr>
+            <div class="col-lg-4 col-md-6">
+              <h5 class="footer-h6">We are here to help you increase your productivity and derive more sales into your business .Choose Us and you will Never regret.</h5>
+            </div>
+          <div class="col-lg-4 col-md-6">
+            <h5 class="useful">Useful Links</h5>
+            <a href="index.html">Home</a>
+            <a href="hire-us.html">Hire us</a>
+            <a href="refreshment.html">Refreshing approach to Digital Marking</a>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h5 class="useful">Contact Us</h5>
+            <h6 class="yhaw">Gemraydigitalagency@gmail.com</h6>
+            <h6 class="yhaw ">+233 559 984 234</h6>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="botom">
+          <h5>Copyright © 2024. | Gemray Digital Agency</h5>
+          <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+          <div class="elfsight-app-7232e952-7fa7-4dfb-8c9e-ac2bd5f9a54f" data-elfsight-app-lazy></div>
+     -->
+        </div>
+      </div>
+
+      <!-- jquery uncompressed -->
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+      <!-- bootstrap script -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <script>
+      const navEl = document.querySelector('.navbar');
+      window.addEventListener('scroll', function() {
+        if(window.scrollY >= 56 ){
+          navEl.classList.add('navbar-scrolled');
+        }else if (window.scrollY < 56 ) {
+          navEl.classList.remove('navbar-scrolled');
+        }
+      });
+      </script>
+
+      
+
+      <script>
+      window.sr = ScrollReveal();
+        sr.reveal('.head-we', {
+          duration: 3000,
+          origin: 'bottom',
+          distance: '200px',
+          reset: true
+        });
+
+        window.sr = ScrollReveal();
+          sr.reveal('.wespan-animate', {
+            duration: 3000,
+            origin: 'right',
+            distance: '100px',
+            reset: true
+          });
+      </script>
+
+
+  </body>
+</html>
