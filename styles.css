@@ -99,6 +99,8 @@ p{
 
 /* container-fluid1 */
 
+
+/* FASTEST///// */
 .container-fluid1{
   padding: 5% 5%;
   overflow: hidden;
@@ -237,6 +239,36 @@ p{
 .img{
   padding-bottom: 8%;
 }
+
+/* SECTORS OF ACTIVITIES */
+.sector-h1{
+  padding: 5% 5% 2%;
+  text-align: center;
+}
+
+.sectr{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #373A40;
+  font-weight: bold;
+}
+
+.sectors-h3{
+  font-size: 1.3rem;
+  color: #686D76;
+  font-weight: lighter;
+}
+
+.list-cont{
+  padding: 0 5% 6%;
+}
+
+.list-group-item{
+  font-size: 1rem;
+  color: #686D76;
+  font-weight: normal;
+}
+
 
 
 /* why choose us */
