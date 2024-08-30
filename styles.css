@@ -6,7 +6,7 @@ body{
 }
 
 .navbar-light{
-  background-color: white;
+  background-color: ;
 }
 
 /* navbar backgrou */
@@ -18,6 +18,7 @@ body{
 .navbar ul.navbar-nav li.nav-item a.nav-link {
   background-color: ;
   color: white;
+  font-size: 15px;
   transition: 0.5s;
   font-weight: bold;
 }
@@ -60,6 +61,7 @@ body{
 .navbar{
   transition: all 0.8s;
 }
+
 
 
 h1{
@@ -518,11 +520,11 @@ span4{
 
 /* footer */
 #footer{
-    background-color: #2F3645;
+  background-color: #2F3645;
+  font-family: 'Ubuntu', sans-serif;
 }
 .container{
-  padding: 8% 5% 5%;
-  margin-bottom: 3%;
+  padding: 3% 5% 0;
   text-align: center;
 }
 
@@ -531,19 +533,24 @@ span4{
   margin: 3.5% 0;
 }
 
+.footer-h6{
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 25px;
+  color: #EEEEEE;
+}
 
 .useful{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #EEEDEB;
 }
 
 .col-lg-4 a{
-  text-decoration: none;
+  text-decoration: ;
   margin-left: 3%;
   color: #EEEDEB;
-  transition: 0.2s;
-  font-size: 14px;
   font-weight: lighter;
+  transition: 0.2s;
 }
 
 .col-lg-4 a:hover{
@@ -554,23 +561,14 @@ span4{
   text-align: center;
   padding-bottom: 4%;
 }
-
-.footer-h6{
-  font-size: 14px;
-  font-weight: lighter;
-  line-height: 20px;
-  color: #EEEEEE;
-}
-
 .botom h5{
   font-size: 1rem;
   color: #686D76;
   font-weight: lighter;
-
 }
 
 .yhaw{
-  font-size: 14px;
+  font-size: 1rem;
   color: #EEEDEB;
   font-weight: lighter;
 }
@@ -578,8 +576,10 @@ span4{
 .fa-brands{
   font-size: 1.2rem;
   margin-left: 2px;
-  color: #686D76;
+  padding-right: 10px;
+  color: #fff;
 }
+
 
 
 
